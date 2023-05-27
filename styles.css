@@ -3,45 +3,45 @@ body {
     margin: 0;
     padding: 0;
     transition: background-color 0.3s ease;
-  }
-  
-  header {
+}
+
+header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  form input,
-  form button {
+}
+
+form input,
+form button {
     margin-bottom: 10px;
-  }
-  
-  form input,
-  form button,
-  #book-list {
+}
+
+form input,
+form button,
+#book-list {
     width: 100%;
-  }
-  
-  form button {
+}
+
+form button {
     background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px;
     cursor: pointer;
-  }
-  
-  form button:hover {
+}
+
+form button:hover {
     background-color: #0056b3;
-  }
-  
-  .book {
+}
+
+.book {
     background-color: #fff;
     padding: 10px;
     margin-bottom: 10px;
@@ -49,63 +49,62 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .book h3 {
+}
+
+.book h3 {
     margin-bottom: 5px;
-  }
-  
-  .book p {
+}
+
+.book p {
     margin: 0;
-  }
-  
-  .book .read-status {
+}
+
+.book .read-status {
     color: #007bff;
     cursor: pointer;
-  }
-  
-  .book button {
+}
+
+.book button {
     background-color: #dc3545;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-  }
+}
 
-  /* Dark Mode styles */
+/* Dark Mode styles */
 body.dark-mode {
     background-color: #333;
     color: #fff;
-  }
-  
-  body.dark-mode header {
+}
+
+body.dark-mode header {
     background-color: #222;
-  }
-  
-  body.dark-mode .container {
+}
+
+body.dark-mode .container {
     background-color: #444;
-  }
-  
-  body.dark-mode form input,
-  body.dark-mode form button {
+}
+
+body.dark-mode form input,
+body.dark-mode form button {
     background-color: #666;
     color: #fff;
-  }
-  
-  body.dark-mode form button:hover {
+}
+
+body.dark-mode form button:hover {
     background-color: #555;
-  }
-  
-  body.dark-mode .book {
+}
+
+body.dark-mode .book {
     background-color: #555;
     color: #fff;
-  }
-  
-  body.dark-mode .book .read-status {
+}
+
+body.dark-mode .book .read-status {
     color: #007bff;
-  }
-  
-  body.dark-mode .book button {
+}
+
+body.dark-mode .book button {
     background-color: #dc3545;
-  }
-  
+}
