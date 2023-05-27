@@ -71,3 +71,41 @@ body {
     padding: 5px 10px;
     cursor: pointer;
   }
+
+  /* Dark Mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode header {
+    background-color: #222;
+  }
+  
+  body.dark-mode .container {
+    background-color: #444;
+  }
+  
+  body.dark-mode form input,
+  body.dark-mode form button {
+    background-color: #666;
+    color: #fff;
+  }
+  
+  body.dark-mode form button:hover {
+    background-color: #555;
+  }
+  
+  body.dark-mode .book {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  body.dark-mode .book .read-status {
+    color: #007bff;
+  }
+  
+  body.dark-mode .book button {
+    background-color: #dc3545;
+  }
+  

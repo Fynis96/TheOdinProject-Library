@@ -43,6 +43,11 @@ class UI {
     }
   }
 
+  function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+  }
+
   document.getElementById("book-form").addEventListener("submit", function(e) {
     e.preventDefault();
     const title = document.getElementById("title").value;
@@ -62,3 +67,5 @@ class UI {
     ui.removeBookFromList(e.target);
     ui.toggleReadStatus(e.target);
   });
+
+  document.getElementById("dark-mode-toggle").addEventListener("click", toggleDarkMode);
